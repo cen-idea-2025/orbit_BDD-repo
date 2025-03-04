@@ -2,18 +2,21 @@ name: Test API
 
 on: 
     push:
-    branches:
-         main
+     branches: 
+        [main]
+
+         
     pull_request:   
 
 jobs:
   cypress-run:
-    runs-on: windows
+    runs-on: ubuntu-latest
+    
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      -  name: Install Node.js
+      - name: Install Node.js
         uses: actions/setup-node@v4
         with:
          node-version: '16.17.0'
