@@ -1,0 +1,29 @@
+name: Test API
+
+on: push
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      -  name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+         node-version: '16.17.0'
+      - name: Restore dependencies
+        run: cd Test_Api && npm install
+      
+            
+      # Install npm dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run on chrome
+        uses: cypress-io/github-action@v6
+        with:
+          working-directory: Test_Api 
+          browser: chrome
+          install: true
+          command: npm run cy:run
+          start: npm start
+
