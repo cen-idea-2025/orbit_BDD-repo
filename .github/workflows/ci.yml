@@ -29,5 +29,5 @@ jobs:
           browser: chrome
           install: true
           command: npm run cy:run
-          start: npm start
+          
 
