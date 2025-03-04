@@ -3,16 +3,12 @@ name: Test API
 on: 
     push:
      branches: 
-        [main]
-
-         
+        [main]         
     pull_request:   
 
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
-    
-    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
