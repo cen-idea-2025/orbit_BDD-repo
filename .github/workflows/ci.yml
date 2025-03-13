@@ -1,10 +1,15 @@
-name: Test API
+name: Crucible UI Cypress Tests
 
-on: 
-    push:
-     branches: 
-        [main]         
-    pull_request:   
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+  release:
+    types: [created]
 
 jobs:
   cypress-run:
@@ -15,21 +20,27 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-         node-version: '16.17.0'
+          node-version: 20
       - name: Restore dependencies
-        run: cd Test_Api && npm install
-      
-            
-      # Install npm dependencies, cache them correctly
-      # and run all Cypress tests
-      - name: Cypress run on chrome
+        run: cd bdd_api_tests && npm install
+      - name: Cypress run on Chrome
         uses: cypress-io/github-action@v6
         with:
-          working-directory: Test_Api 
+          working-directory: Test_Api
           browser: chrome
           install: true
-          command: npm run cy:run:chrome 
-
-          
-          
-
+          command: npm run cy:run:chrome
+      - name: Cypress run on Edge
+        uses: cypress-io/github-action@v6
+        with:
+          working-directory: Test_Api
+          browser: edge
+          install: true
+          command: npm run cy:run:edge
+      - name: Cypress run on Firefox
+        uses: cypress-io/github-action@v6
+        with:
+          working-directory: bdd_api_tests
+          browser: firefox
+          install: true
+          command: npm run cy:run:firefox
