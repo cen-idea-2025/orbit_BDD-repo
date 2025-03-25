@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 20
       - name: Restore dependencies
-        run: cd Test_Api && npm install
+        run: cd bdd_api_tests && npm install
       - name: Cypress run on Chrome
         uses: cypress-io/github-action@v6
         with:
@@ -30,7 +30,6 @@ jobs:
           browser: chrome
           install: true
           command: npm run cy:run:chrome
-          
       - name: Cypress run on Edge
         uses: cypress-io/github-action@v6
         with:
