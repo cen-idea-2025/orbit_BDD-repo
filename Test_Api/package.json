@@ -6,7 +6,7 @@
   "scripts": {
      "cy:debug": "cypress open",
     "cy:run:chrome": "cypress run --headed --browser chrome --spec 'cypress/e2e/features/**/*.feature'",
-    "cy:run:edge": "cypress run --headed --browser edge --spec 'cypress/e2e/features/**/*.feature'",
+    "cy:run:edge": "cypress run --headed --browser edge --spec",
     "cy:run:firefox": "cypress run --headed --browser firefox --spec 'cypress/e2e/features/**/*.feature'"
   },
   "keywords": [],
