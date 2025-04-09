@@ -1,0 +1,21 @@
+{
+  "name": "bunker_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test":"node build/index.js",
+    "execute":"npm run build && npm run test"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "cypress": "^14.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
