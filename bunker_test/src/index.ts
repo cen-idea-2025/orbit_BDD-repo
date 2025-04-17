@@ -1,9 +1,4 @@
+//object is a way of describing properties of a thing
 
-console.log("Welcome to my World");
-
-let myName: string = "Chukwuebuka";
-let myAge: number =34;
-let studentAges: string[]= ["Frank","Emmanuel","David","Akachukwu"];
-
-console.log(studentAges);
+let new_car: { brand: string, model: string, year: number };
 
