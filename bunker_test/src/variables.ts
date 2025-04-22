@@ -5,3 +5,5 @@ let myAge: number = 34;
 let studentAges: string[] = ["Frank", "Emmanuel", "David", "Akachukwu"];
 
 console.log(studentAges[0]);
+
+console.log(myName);
