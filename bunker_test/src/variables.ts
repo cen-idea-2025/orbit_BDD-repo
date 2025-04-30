@@ -1,9 +1,9 @@
-console.log("Welcome to my World");
+// console.log("Welcome to my World");
 
-let myName: string = "Chukwuebuka";
-let myAge: number = 34;
-let studentAges: string[] = ["Frank", "Emmanuel", "David", "Akachukwu"];
+// let myName: string = "Chukwuebuka";
+// let myAge: number = 34;
+// let studentAges: string[] = ["Frank", "Emmanuel", "David", "Akachukwu"];
 
-console.log(studentAges[0]);
+// console.log(studentAges[0]);
 
-console.log(myName);
+// console.log(myName);
