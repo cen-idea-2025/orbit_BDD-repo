@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "build:win":"node_modules/.bin/tsc",
     "test":"node build/index.js",
+    
     "execute":"npm run build && npm run test"
 
   },
