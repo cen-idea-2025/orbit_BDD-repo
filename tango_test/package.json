@@ -1,0 +1,40 @@
+{
+  "name": "tango_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:debug": "cypress open",
+    "cy:run": "cypress run --headed --browser chrome --spec 'cypress/e2e/features/**/*.features'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@types/cypress-cucumber-preprocessor": "^4.0.5",
+    "@types/node": "^22.15.3",
+    "cypress": "^14.3.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+
+  "cypress-cucumber-preprocessor":{
+  "nonGlobalStepDefinitions": false,
+  "stepDefinitions": "cypress/e2e/step_definitions/",
+  "cucumberJson":{
+    "generate": true,
+    "outputFolder": "./cypress/reports",
+    "filePrefix": "Godfather",
+    "filesuffix": ".cucumber"
+  }
+  },
+  "html":{
+    "enable":true
+  }
+
+
+}
