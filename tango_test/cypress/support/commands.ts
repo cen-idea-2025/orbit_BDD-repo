@@ -28,7 +28,7 @@
 
 declare namespace Cypress {
   interface Chainable {
-    loginID(email: string, password: string): Chainable<void>;
+    loginID(): Chainable<void>;
   }
 }
 
@@ -41,5 +41,5 @@ Cypress.Commands.add("loginID", () => {
 
   cy.get('button[id = "login_button"]').click({ force: true });
 
-  cy.get('a[id="dropDownMenuButton"]').eq(1).click({ force: true });
+
 });

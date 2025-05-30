@@ -8,18 +8,16 @@ export default defineConfig({
   chromeWebSecurity: false,
 
   e2e: {
-
     baseUrl: "https://cenidea-git-develop-cenidea.vercel.app/",
-    video: true ,
-    
-    specPattern: "cypress/e2e/features/**/*.{feature,features}",
+    video: true,
+    experimentalModifyObstructiveThirdPartyCode: true,
 
+    specPattern: "cypress/e2e/feature/**/*.{feature,features}",
 
     setupNodeEvents(on, config) {
-      // implement node event listeners here
-      
-      return require("./cypress/plugins/index.ts")(on, config)
-   
+      //implement node event listeners here
+
+      return require("./cypress/plugin/index.ts")(on, config);
     },
   },
 });

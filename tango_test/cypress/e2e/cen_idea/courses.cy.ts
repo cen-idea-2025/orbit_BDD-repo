@@ -1,15 +1,37 @@
 /// <reference types="cypress" />
 
+import { multiply } from "cypress/types/lodash";
+
 describe("", () => {
   it("", () => {
-    cy.get('a[href*="/course"]').eq(3).click({ force: true });
+    cy.loginID();
 
-    cy.get('a[href*="/course/68120ad635b9e1b92c752a63"]')
-      .eq(2)
+    cy.get('a[href*="/course/6582bc30abfdc35317579f99"]')
+
+      .eq(0)
       .click({ force: true });
-    cy.get('h2[class="font-weight-bolder mt-5"]').should(
-      "contain",
-      "Fullstack web development: Beginners to Advanced with Live Projects"
-    );
+
+    cy.get('button[class="btn-block py-1 rounded-pill"]').click({
+      force: true,
+    });
+
+    //cy.get("select").select(1).should("have.value", "08/05/2025");
+
+    cy.get("select").select("12/05/2025").should("have.value", "12/05/2025");
+
+    cy.get('button[class*="btn-block py-1 rounded-pill"]').click({
+      force: true,
+    });
+
+     cy.get('button[class*="py-2 booking-btn rounded-pill"]').click({
+       force: true,
+     });  
+
+
+
+
+    //how to pinpoint the particular option in a dropbar or how to use cy.select()
+
+  
   });
 });

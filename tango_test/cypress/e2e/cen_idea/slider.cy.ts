@@ -1,26 +1,12 @@
 /// <reference types="cypress" />
 
 describe("", () => {
-  
-  it("",()=>{
+  it("", () => {
+    cy.get('[class="carousel-control-next-icon"]').click({ force: true });
 
-   //cy.get();
+    cy.get('a[id*="executivecoaching"]').click({ force: true });
+  });
 
-   
-
-  })
-  
-
-
-  
-  
-  
-  
-  
-  
- 
- 
- 
   // it("", () => {
   //   cy.url().should("contain", "cenidea");
   //   cy.title().should("contain", "consultancy");
@@ -29,6 +15,4 @@ describe("", () => {
   //     .should("exist")
   //     .click({ force: true });
   //});
-
-
 });

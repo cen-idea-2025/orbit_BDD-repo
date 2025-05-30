@@ -1,4 +1,4 @@
-const cucumber = require("cypress-require-preprocessor");
+const cucumber = require("cypress-cucumber-preprocessor").default;
 const browserify = require("@cypress/browserify-preprocessor");
 
 module.exports = (on: any, config: any) => {

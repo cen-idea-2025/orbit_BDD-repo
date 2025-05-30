@@ -1,5 +1,7 @@
 class homepage{
-
+    goToAccount(){
+        cy.loginID()
+    }
 
 }
 
