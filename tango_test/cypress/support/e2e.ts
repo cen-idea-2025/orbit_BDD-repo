@@ -23,10 +23,14 @@ before(() => {
 
 beforeEach(() => {
   cy.clearAllCookies();
+  cy.clearLocalStorage();
   cy.wait(5000);
   cy.get("[id='rcc-confirm-button']").click();
 });
 
-//  afterEach(() => {
-//    ;
-//  });
+  // after(() => {
+
+  //   cy.clearAllCookies();
+  //   cy.clearLocalStorage();
+    
+  // });

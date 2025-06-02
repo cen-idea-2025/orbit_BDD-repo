@@ -1,18 +1,18 @@
 [
   {
-    "description": "    As a user\n    I want to test the login functionality of a web application\n    So that I can ensure that the application is secure and functional.",
+    "description": "    As a user who is logged into the system\n    I want to search for various courses onboard software\n    So that I can find the course I need and enroll in it",
     "keyword": "Feature",
-    "name": "Testing Login functionality of a web application",
+    "name": "Searching for various courses onboard software",
     "line": 1,
-    "id": "testing-login-functionality-of-a-web-application",
+    "id": "searching-for-various-courses-onboard-software",
     "tags": [],
-    "uri": "login.feature",
+    "uri": "courses.feature",
     "elements": [
       {
-        "id": "testing-login-functionality-of-a-web-application;testing-for-successful-login",
+        "id": "searching-for-various-courses-onboard-software;searching-for-a-course-by-name",
         "keyword": "Scenario",
         "line": 8,
-        "name": "Testing for successful login",
+        "name": "Searching for a course by name",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -20,30 +20,30 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 9,
-            "name": "I am in landing page of the application",
+            "name": "I am logged in",
             "result": {
               "status": "passed",
-              "duration": 8721000000
+              "duration": 17358000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 10,
-            "name": "I enter valid credentials",
+            "name": "I search for a course by name",
             "result": {
               "status": "passed",
-              "duration": 1308000000
+              "duration": 459000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "I should be logged in successfully",
+            "name": "I should see the courses that I searched for",
             "result": {
               "status": "passed",
-              "duration": 561000000
+              "duration": 6000000
             }
           }
         ]

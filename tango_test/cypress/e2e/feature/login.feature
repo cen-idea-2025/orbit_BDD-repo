@@ -6,6 +6,6 @@ Feature:Testing Login functionality of a web application
 
 
 Scenario: Testing for successful login
-Given I am on the login page
+Given I am in landing page of the application
 When I enter valid credentials
 Then I should be logged in successfully

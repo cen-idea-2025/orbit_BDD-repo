@@ -1,15 +1,14 @@
-import {Given, When, Then} from 'cypress-cucumber-preprocessor/steps';
-import homepage from '../pages/homepage';
+import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
+import homepage from "../pages/homepage";
 
-Given("I logged into my account",()=>{
-    homepage.goToAccount();
-})
-
-When('I enter valid credentials', () => {
-  cy.log("testin .....2");
-})
-
-Then("I should be logged in successfully", () => {
-    cy.log("testin .....3");
+Given("I am in landing page of the application", () => {
+  cy.visit("/");
 });
 
+When("I enter valid credentials", () => {
+  homepage.goToAccount();
+});
+
+Then("I should be logged in successfully", () => {
+  cy.get("span").should("contain", "Welcome Ebuka");
+});

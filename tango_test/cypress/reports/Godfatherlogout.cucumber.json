@@ -23,7 +23,7 @@
             "name": "I am logged into the app",
             "result": {
               "status": "passed",
-              "duration": 33957000000
+              "duration": 8105000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I logout",
             "result": {
               "status": "passed",
-              "duration": 2960000000
+              "duration": 1482000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I should be logged out successfully",
             "result": {
               "status": "passed",
-              "duration": 406000000
+              "duration": 96000000
             }
           }
         ]
