@@ -23,7 +23,7 @@
             "name": "I am in landing page of the application",
             "result": {
               "status": "passed",
-              "duration": 8721000000
+              "duration": 9169000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I enter valid credentials",
             "result": {
               "status": "passed",
-              "duration": 1308000000
+              "duration": 1848000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 561000000
+              "duration": 585000000
             }
           }
         ]

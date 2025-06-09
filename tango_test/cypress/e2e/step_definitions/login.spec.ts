@@ -10,5 +10,5 @@ When("I enter valid credentials", () => {
 });
 
 Then("I should be logged in successfully", () => {
-  cy.get("span").should("contain", "Welcome Ebuka");
+  homepage.confirmlogin();
 });
