@@ -28,9 +28,11 @@ beforeEach(() => {
   cy.get("[id='rcc-confirm-button']").click();
 });
 
-  // after(() => {
+  after(() => {
 
-  //   cy.clearAllCookies();
-  //   cy.clearLocalStorage();
+     cy.clearAllCookies();
+     cy.clearLocalStorage();
+     cy.wait(5000);
+     cy.get("[id='rcc-confirm-button']").click();
     
-  // });
+   });

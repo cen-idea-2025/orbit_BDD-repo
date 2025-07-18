@@ -23,7 +23,7 @@
             "name": "I am logged in",
             "result": {
               "status": "passed",
-              "duration": 30805000000
+              "duration": 20936000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I click on the confirm consultation button",
             "result": {
               "status": "passed",
-              "duration": 551000000
+              "duration": 270000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I confirm consultation page",
             "result": {
               "status": "passed",
-              "duration": 1358000000
+              "duration": 248000000
             }
           }
         ]
