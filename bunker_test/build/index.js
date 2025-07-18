@@ -4,3 +4,4 @@ let myName = "Chukwuebuka";
 let myAge = 34;
 let studentAges = ["Frank", "Emmanuel", "David", "Akachukwu"];
 console.log(studentAges[0]);
+console.log(myName);
