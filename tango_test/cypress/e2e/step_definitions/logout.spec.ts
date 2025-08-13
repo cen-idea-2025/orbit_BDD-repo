@@ -20,6 +20,5 @@ Then("I should be logged out successfully", () => {
   cy.get('h2[class="mb-3 ml-2 stays-heading"]').should(
     "contain",
     "All Courses Available"
-  
-);
+  );
 });

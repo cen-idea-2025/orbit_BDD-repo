@@ -8,7 +8,7 @@ export default defineConfig({
   chromeWebSecurity: false,
 
   e2e: {
-    baseUrl: "https://cenidea-git-develop1-cenidea.vercel.app/",
+    baseUrl: "https://cenidea-git-develop-cenidea.vercel.app/",
     video: true,
     experimentalModifyObstructiveThirdPartyCode: true,
 

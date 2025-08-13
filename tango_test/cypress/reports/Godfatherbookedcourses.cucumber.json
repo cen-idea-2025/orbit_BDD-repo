@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    As a user who easy access to booked courses\n    I want to navigate to my booked courses via the footer\n    So that I can view my booked courses easily",
+    "keyword": "Feature",
+    "name": "Navigate to booked courses via footer",
+    "line": 1,
+    "id": "navigate-to-booked-courses-via-footer",
+    "tags": [],
+    "uri": "bookedcourses.feature",
+    "elements": [
+      {
+        "id": "navigate-to-booked-courses-via-footer;",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 17371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I scroll down and click on the \"Booked Courses\" link in the footer",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "",
+            "result": {
+              "status": "undefined",
+              "duration": 198000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

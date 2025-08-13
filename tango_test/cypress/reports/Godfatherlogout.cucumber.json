@@ -23,7 +23,7 @@
             "name": "I am logged into the app",
             "result": {
               "status": "passed",
-              "duration": 8717000000
+              "duration": 10451000000
             }
           },
           {
@@ -32,8 +32,9 @@
             "line": 10,
             "name": "I logout",
             "result": {
-              "status": "passed",
-              "duration": 1430000000
+              "status": "failed",
+              "duration": 10019000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `a[id=\"dropDownMenuButton\"]`, but never found it.\n    at Context.eval (cypress/e2e/step_definitions/logout.spec.ts:14:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n    at getRet (https://cenidea-git-develop-cenidea.vercel.app/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://cenidea-git-develop-cenidea.vercel.app/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://cenidea-git-develop-cenidea.vercel.app/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://cenidea-git-develop-cenidea.vercel.app/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://cenidea-git-develop-cenidea.vercel.app/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://cenidea-git-develop-cenidea.vercel.app/__cypress/runner/cypress_runner.js:140155:19)"
             }
           },
           {
@@ -42,8 +43,7 @@
             "line": 11,
             "name": "I should be logged out successfully",
             "result": {
-              "status": "passed",
-              "duration": 48000000
+              "status": "skipped"
             }
           }
         ]

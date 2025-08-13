@@ -1,0 +1,23 @@
+{
+  "name": "mock-prep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:debug": "cypress open",
+    "cy:debug:win": "./node_modules/.bin/cypress open",
+    "cy:run": "cypress run --headed --browser chrome --spec cypress/e2e/**/*.cy.ts",
+    "cy:run:win": "./node_modules/.bin/cypress run"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "cypress"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.5.4",
+    "typescript": "^5.9.2"
+  }
+}

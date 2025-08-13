@@ -23,7 +23,7 @@
             "name": "I am logged into my account",
             "result": {
               "status": "passed",
-              "duration": 14057000000
+              "duration": 18751000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I click on the coaching page link",
             "result": {
               "status": "passed",
-              "duration": 428000000
+              "duration": 299000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "the coaching page is displayed correctly",
             "result": {
               "status": "passed",
-              "duration": 232000000
+              "duration": 185000000
             }
           }
         ]

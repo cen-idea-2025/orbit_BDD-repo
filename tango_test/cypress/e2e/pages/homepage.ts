@@ -10,7 +10,7 @@ class homepage {
   }
 
   confirmlogin() {
-    cy.get("span").should("contain", "Welcome Ebuka");
+    cy.get("span").should("contain", "Hi Ebu…");
   }
 }
 

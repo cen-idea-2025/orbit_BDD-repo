@@ -2,7 +2,7 @@ import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 import homepage from "../pages/homepage";
 
 Given("I am logged in", () => {
-    homepage.goToAccount();
+  homepage.goToAccount();
 });
 
 When("I search for a course by name", () => {
