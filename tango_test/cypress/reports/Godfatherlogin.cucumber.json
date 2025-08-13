@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    As a user\n    I want to test the login functionality of a web application\n    So that I can ensure that the application is secure and functional.",
+    "keyword": "Feature",
+    "name": "Testing Login functionality of a web application",
+    "line": 1,
+    "id": "testing-login-functionality-of-a-web-application",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "testing-login-functionality-of-a-web-application;testing-for-successful-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Testing for successful login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am in landing page of the application",
+            "result": {
+              "status": "passed",
+              "duration": 9417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2522000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 963000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

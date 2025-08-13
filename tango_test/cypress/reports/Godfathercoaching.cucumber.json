@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    As a user who wants to access the coaching page\n    I want to navigate to the coaching page\n    So that I can view the coaching content",
+    "keyword": "Feature",
+    "name": "Navigate to coaching page and confirm that the page is displayed correctly",
+    "line": 1,
+    "id": "navigate-to-coaching-page-and-confirm-that-the-page-is-displayed-correctly",
+    "tags": [],
+    "uri": "coaching.feature",
+    "elements": [
+      {
+        "id": "navigate-to-coaching-page-and-confirm-that-the-page-is-displayed-correctly;",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am logged into my account",
+            "result": {
+              "status": "passed",
+              "duration": 14057000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on the coaching page link",
+            "result": {
+              "status": "passed",
+              "duration": 428000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the coaching page is displayed correctly",
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

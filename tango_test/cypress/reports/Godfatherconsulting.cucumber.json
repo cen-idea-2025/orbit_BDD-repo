@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    As a user who is logged into the system\n    I want to be able to confirm a consultation page",
+    "keyword": "Feature",
+    "name": "confirm consultation page",
+    "line": 1,
+    "id": "confirm-consultation-page",
+    "tags": [],
+    "uri": "consulting.feature",
+    "elements": [
+      {
+        "id": "confirm-consultation-page;",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am logged in",
+            "result": {
+              "status": "passed",
+              "duration": 20936000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click on the confirm consultation button",
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I confirm consultation page",
+            "result": {
+              "status": "passed",
+              "duration": 248000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

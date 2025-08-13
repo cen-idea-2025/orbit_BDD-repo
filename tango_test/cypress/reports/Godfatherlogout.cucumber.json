@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    As a user\n    I want to test the login functionality of a web application\n    So that I can ensure that the application is secure and functional.",
+    "keyword": "Feature",
+    "name": "Testing Login functionality of a web application - Logout",
+    "line": 1,
+    "id": "testing-login-functionality-of-a-web-application---logout",
+    "tags": [],
+    "uri": "logout.feature",
+    "elements": [
+      {
+        "id": "testing-login-functionality-of-a-web-application---logout;testing-for-successful-logout",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Testing for successful logout",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am logged into the app",
+            "result": {
+              "status": "passed",
+              "duration": 8717000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I logout",
+            "result": {
+              "status": "passed",
+              "duration": 1430000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be logged out successfully",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
