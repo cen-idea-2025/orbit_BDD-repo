@@ -19,5 +19,12 @@
   "devDependencies": {
     "cypress": "^14.5.4",
     "typescript": "^5.9.2"
+  },
+    "cucumberJson":{
+    "generate": true,
+    "outputFolder": "./cypress/reports",
+    "filePrefix": "Godfather",
+    "filesuffix": ".cucumber"
   }
+
 }

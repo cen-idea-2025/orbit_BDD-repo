@@ -23,7 +23,7 @@
             "name": "I am on the homepage",
             "result": {
               "status": "passed",
-              "duration": 17371000000
+              "duration": 9152000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I scroll down and click on the \"Booked Courses\" link in the footer",
             "result": {
               "status": "passed",
-              "duration": 37000000
+              "duration": 10000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "",
             "result": {
               "status": "undefined",
-              "duration": 198000000
+              "duration": 26000000
             }
           }
         ]

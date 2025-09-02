@@ -23,7 +23,7 @@
             "name": "I am logged in",
             "result": {
               "status": "passed",
-              "duration": 8638000000
+              "duration": 9036000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I click on the confirm consultation button",
             "result": {
               "status": "passed",
-              "duration": 254000000
+              "duration": 304000000
             }
           },
           {
@@ -42,8 +42,9 @@
             "line": 10,
             "name": "I confirm consultation page",
             "result": {
-              "status": "passed",
-              "duration": 228000000
+              "status": "failed",
+              "duration": 10027000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: expected '<h2.mb-3.ml-2.stays-heading>' to contain text 'All Bookable Consultations', but the text was 'All Courses Available'\n    + expected - actual\n\n    -'All Courses Available'\n    +'All Bookable Consultations'\n\n    at consult.confirmConsult (cypress/e2e/pages/consultingPage.ts:8:50)\n    at Context.eval (cypress/e2e/step_definitions/consulting.spec.ts:14:10)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n    at getRet (https://cenidea-git-develop-cenidea.vercel.app/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://cenidea-git-develop-cenidea.vercel.app/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://cenidea-git-develop-cenidea.vercel.app/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://cenidea-git-develop-cenidea.vercel.app/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://cenidea-git-develop-cenidea.vercel.app/__cypress/runner/cypress_runner.js:119878:21)"
             }
           }
         ]
